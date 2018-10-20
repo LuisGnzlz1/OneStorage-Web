@@ -12,23 +12,10 @@
         title: 'Onestorage'
     });
 
-    map.setZoom(15);
+    map.setZoom(16);
 
 
     $(function(){
-
-        $('#titulo-tamanio').css('opacity', 0);
-        $('#titulo-disponibles').css('opacity', 0);
-
-        $('#titulo-tamanio').waypoint(function() {
-            $('#titulo-tamanio').addClass('fadeInLeft');
-        }, { offset: '40%' });
-
-        $('#titulo-disponibles').waypoint(function() {
-            $('#titulo-disponibles').addClass('fadeInRight');
-        }, { offset: '41%' });
-
-
 
         $('#contact-form')[0].reset();
         $('#contact-form-r')[0].reset();
@@ -187,10 +174,4 @@
     function validateEmail(email) {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
-    }
-
-    function cleanField() {
-
-
-
     }

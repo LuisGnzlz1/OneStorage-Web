@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .jumbotron {
-    background-image: url('../img/conta.jpg');
+    background-image: url('../img/conta-compressor.jpg');
     background-size: cover;
 }
 
@@ -202,13 +203,18 @@ body, html {
     color: #ffffff !important;
 }
 
-.parallax-window {
-    min-height: 400px;
-    opacity: 0.41;
-    background-color: #000;
-    z-index: -5;
-    position: relative;
-    height: 874px;
+.parallax {
+    /* The image used */
+    background-image: url('../img/conta-compressor.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*---------------------------------------------
@@ -481,6 +487,13 @@ EMPIEZAN LAS MEDIAS QUERIES
         border: none;
     }
 
+    .title-tamdis{
+        font-size: 5vw;
+        margin-top: 50px;
+        margin-left: -85px;
+        margin-bottom: 20px;
+    }
+
     .title-tam{
         font-size: 5vw;
         margin-top: 70px;
@@ -594,6 +607,13 @@ EMPIEZAN LAS MEDIAS QUERIES
     .card-contacto{
         width: 95%;
         border: none;
+    }
+
+    .title-tamdis{
+        font-size: 5vw;
+        margin-top: 50px;
+        margin-left: -85px;
+        margin-bottom: 20px;
     }
 
     .title-tam{
@@ -710,6 +730,12 @@ EMPIEZAN LAS MEDIAS QUERIES
         margin-left: 180px;
     }
 
+    .title-tamdis{
+        font-size: 4vw;
+        margin-top: 50px;
+        margin-left: -85px;
+        margin-bottom: 20px;
+    }
 
     .title-tam{
         font-size: 3.8em;
@@ -721,7 +747,7 @@ EMPIEZAN LAS MEDIAS QUERIES
 
     .title-dis{
         font-size: 3.8em;
-        margin-top: -20px;
+        margin-top: 70px;
         margin-left: 90px;
         position: relative;
         z-index: 700000;
