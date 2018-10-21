@@ -259,6 +259,17 @@ EMPIEZAN LAS MEDIAS QUERIES
         border: none;
     }
 
+    .title-caracteristica{
+        text-transform: uppercase;
+        font-size: 9vw;
+        color: #5da099;
+    }
+
+    .title-tamdis{
+        text-transform: uppercase;
+        font-size: 9vw;
+    }
+
     .title-tam{
         font-size: 12vw;
         margin-top: 30px;
@@ -374,6 +385,17 @@ EMPIEZAN LAS MEDIAS QUERIES
         border: none;
     }
 
+    .title-caracteristica{
+        text-transform: uppercase;
+        font-size: 8vw;
+        color: #5da099;
+    }
+
+    .title-tamdis{
+        text-transform: uppercase;
+        font-size: 8vw;
+    }
+
     .title-tam{
         font-size: 10vw;
         margin-top: 30px;
@@ -487,11 +509,18 @@ EMPIEZAN LAS MEDIAS QUERIES
         border: none;
     }
 
-    .title-tamdis{
-        font-size: 5vw;
+    .title-caracteristica{
+        text-transform: uppercase;
+        font-size: 6vw;
+        margin-left: -10px;
         margin-top: 50px;
-        margin-left: -85px;
-        margin-bottom: 20px;
+        color: #5da099;
+        margin-bottom: 30px;
+    }
+
+    .title-tamdis{
+        text-transform: uppercase;
+        font-size: 6vw;
     }
 
     .title-tam{
@@ -609,11 +638,18 @@ EMPIEZAN LAS MEDIAS QUERIES
         border: none;
     }
 
-    .title-tamdis{
-        font-size: 5vw;
+    .title-caracteristica{
+        text-transform: uppercase;
+        font-size: 4.5vw;
+        margin-left: 50px;
         margin-top: 50px;
-        margin-left: -85px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        color: #5da099;
+    }
+
+    .title-tamdis{
+        text-transform: uppercase;
+        font-size: 4.5vw;
     }
 
     .title-tam{
@@ -730,11 +766,18 @@ EMPIEZAN LAS MEDIAS QUERIES
         margin-left: 180px;
     }
 
-    .title-tamdis{
+    .title-caracteristica{
+        text-transform: uppercase;
         font-size: 4vw;
+        margin-left: 5px;
         margin-top: 50px;
-        margin-left: -85px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        color: #5da099;
+    }
+
+    .title-tamdis{
+        text-transform: uppercase;
+        font-size: 4vw;
     }
 
     .title-tam{
@@ -758,7 +801,7 @@ EMPIEZAN LAS MEDIAS QUERIES
         margin-left: -20px;
         position: relative;
         z-index: 5000;
-        width: 27rem;
+        width: 72%;
     }
 
     .s1{

@@ -12,7 +12,7 @@
         title: 'Onestorage'
     });
 
-    map.setZoom(16);
+    map.setZoom(15);
 
 
     $(function(){
