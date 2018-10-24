@@ -26,7 +26,7 @@ try {
     $mail->Port = 25;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('web@onestorage.com.ar', 'Onestorage');
+    $mail->setFrom('info@onestorage.com.ar', 'Onestorage');
     $mail->addAddress($correo_destino);
 
     //Content

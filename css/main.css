@@ -180,6 +180,48 @@ body, html {
     color: black;
 }
 
+.header-menu{
+    font-size: 1vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.number-what{
+    font-size: 1vw;
+    color: white;
+}
+
+.number-what a{
+    color: white;
+}
+
+
+.number-what a:link {
+    color: white;
+}
+
+/* visited link */
+.number-what a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.number-what a:hover {
+    color: white;
+}
+
+/* selected link */
+.number-what a:active {
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
@@ -224,13 +266,23 @@ EMPIEZAN LAS MEDIAS QUERIES
 
     .title-caracteristica{
         text-transform: uppercase;
-        font-size: 9vw;
+        font-size: 7vw;
         color: #5da099;
+        text-align: center;
     }
 
     .title-tamdis{
         text-transform: uppercase;
-        font-size: 9vw;
+        font-size: 7vw;
+        margin-bottom: 20px;
+    }
+
+    .s2 .card{
+        margin: 0 auto;
+    }
+
+    .s2 img{
+        margin: 0 auto;
     }
 
     .title-tam{
@@ -255,22 +307,7 @@ EMPIEZAN LAS MEDIAS QUERIES
         position: relative;
         z-index: 5000;
         width: 95%;
-    }
-
-    .s1{
-        display: none;
-    }
-
-    .s1-responsive{
-        display: flex;
-    }
-
-    .s2{
-        display: none;
-    }
-
-    .s2-responsive{
-        display: flex;
+        margin: 0 auto;
     }
 
     .box-card{
@@ -294,6 +331,18 @@ EMPIEZAN LAS MEDIAS QUERIES
         background-color: #aaa;
     }
 
+    .header-menu{
+        font-size: 3vw;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #444;
+    }
+
+    .number-what{
+        font-size: 3vw;
+        color: white;
+        text-shadow: 1px 1px #444;
+    }
 }
 
 
@@ -368,22 +417,7 @@ EMPIEZAN LAS MEDIAS QUERIES
         position: relative;
         z-index: 5000;
         width: 95%;
-    }
-
-    .s1{
-        display: none;
-    }
-
-    .s1-responsive{
-        display: flex;
-    }
-
-    .s2{
-        display: none;
-    }
-
-    .s2-responsive{
-        display: flex;
+        margin: 0 auto;
     }
 
     .box-card{
@@ -405,6 +439,19 @@ EMPIEZAN LAS MEDIAS QUERIES
         height: 400px;
         padding: 1px;
         background-color: #aaa;
+    }
+
+    .header-menu{
+        font-size: 3vw;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #444;
+    }
+
+    .number-what{
+        font-size: 3vw;
+        color: white;
+        text-shadow: 1px 1px #444;
     }
 }
 
@@ -449,7 +496,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     .title-caracteristica{
         text-transform: uppercase;
         font-size: 5vw;
-        margin-left: -10px;
+        margin-left: -15px;
         margin-top: 50px;
         color: #5da099;
         margin-bottom: 30px;
@@ -482,22 +529,7 @@ EMPIEZAN LAS MEDIAS QUERIES
         position: relative;
         z-index: 5000;
         width: 95%;
-    }
-
-    .s1{
-        display: flex;
-    }
-
-    .s1-responsive{
-        display: none;
-    }
-
-    .s2{
-        display: inline;
-    }
-
-    .s2-responsive{
-        display: none;
+        margin: 0 auto;
     }
 
     .box-card{
@@ -519,6 +551,19 @@ EMPIEZAN LAS MEDIAS QUERIES
         height: 400px;
         padding: 1px;
         background-color: #aaa;
+    }
+
+    .header-menu{
+        font-size: 2vw;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #444;
+    }
+
+    .number-what{
+        font-size: 2vw;
+        color: white;
+        text-shadow: 1px 1px #444;
     }
 
 }
@@ -565,7 +610,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     .title-caracteristica{
         text-transform: uppercase;
         font-size: 4.5vw;
-        margin-left: 50px;
+        margin-left: -70px;
         margin-top: 50px;
         margin-bottom: 30px;
         color: #5da099;
@@ -600,22 +645,6 @@ EMPIEZAN LAS MEDIAS QUERIES
         width: 95%;
     }
 
-    .s1{
-        display: flex;
-    }
-
-    .s1-responsive{
-        display: none;
-    }
-
-    .s2{
-        display: inline;
-    }
-
-    .s2-responsive{
-        display: none;
-    }
-
     .box-card{
         width: 95%;
     }
@@ -635,6 +664,19 @@ EMPIEZAN LAS MEDIAS QUERIES
         height: 400px;
         padding: 1px;
         background-color: #aaa;
+    }
+
+    .header-menu{
+        font-size: 1.3vw;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #444;
+    }
+
+    .number-what{
+        font-size: 1.3vw;
+        color: white;
+        text-shadow: 1px 1px #444;
     }
 
 }
@@ -679,8 +721,8 @@ EMPIEZAN LAS MEDIAS QUERIES
 
     .title-caracteristica{
         text-transform: uppercase;
-        font-size: 4vw;
-        margin-left: 5px;
+        font-size: 3.8vw;
+        margin-left: -230px;
         margin-top: 50px;
         margin-bottom: 30px;
         color: #5da099;
@@ -715,22 +757,6 @@ EMPIEZAN LAS MEDIAS QUERIES
         width: 72%;
     }
 
-    .s1{
-        display: flex;
-    }
-
-    .s1-responsive{
-        display: none;
-    }
-
-    .s2{
-        display: inline;
-    }
-
-    .s2-responsive{
-        display: none;
-    }
-
     .box-card{
         width: 24rem;
     }
@@ -750,6 +776,28 @@ EMPIEZAN LAS MEDIAS QUERIES
         height: 300px;
         padding: 1px;
         background-color: #aaa;
+    }
+
+    .s2 .card{
+        margin: 0;
+        margin-left: auto !important;
+    }
+
+    .s2 img{
+        margin-left: 0 !important;
+    }
+
+    .header-menu{
+        font-size: 1.2vw;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #444;
+    }
+
+    .number-what{
+        font-size: 1.2vw;
+        color: white;
+        text-shadow: 1px 1px #444;
     }
 
 }
