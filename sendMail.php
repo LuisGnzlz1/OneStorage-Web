@@ -26,13 +26,13 @@ try {
     $mail->Port = 25;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('info@onestorage.com.ar', 'Onestorage');
+    $mail->setFrom('info@onestorage.com.ar', 'One Storage');
     $mail->addAddress($correo_destino);
 
     //Content
     $mail->isHTML(true);
-    $mail->Subject = 'Contacto';
-    $mail->Body    = 'Una persona desea contactarte, <br><br><b>Nombre:</b> '.$nombre.' <br><b>Correo:</b> '.$correo.' <br> <b>Mensaje:</b> '.$mensaje.'';
+    $mail->Subject = 'Contacto Formulario Web';
+    $mail->Body    = 'Contacto Formulario Web, <br><br><b>Nombre:</b> '.$nombre.' <br><b>Correo:</b> '.$correo.' <br> <b>Mensaje:</b> '.$mensaje.'';
 
     if($mail->send()){
         echo json_encode(['code' => 200]);

@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OneStorage</title>
+    <title>One Storage</title>
 
     <!-- Librerias CSS -->
 
@@ -243,7 +243,7 @@
 
             <img class="img-fluid" data-aos="zoom-in-down" data-aos-duration="1000" src="img/ico03.png">
             <h4 class="text-center">Video Remoto</h4>
-            <p class="text-icon">Por parte del cliente a través de la APP de su Smartphone (iOS/Android)</p>
+            <p class="text-icon">Acceso via APP de tu Smartphone (iOS/Android)</p>
 
         </div>
 
@@ -355,9 +355,9 @@
 
         </div>
 
-        <div class="col-sm-12 text-center mt-5">
+        <div class="col-sm-12 text-center mt-5 h5">
 
-            Nos encontramos dentro de un predio cerrado y alambrado.<br><br>
+            Dentro de un predio cerrado y alambrado.<br><br>
 
             Las Mejores Tarifas del Mercado.<br><br>
 
