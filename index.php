@@ -337,6 +337,14 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
+                                <input id="c-telefono" type="text" name="c-telefono" class="form-control" placeholder="Ingrese su teléfono">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
                                 <textarea id="c-mensaje" name="c-mensaje" class="form-control" placeholder="Ingrese un mensaje" rows="4"></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>

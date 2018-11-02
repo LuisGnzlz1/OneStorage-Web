@@ -32,16 +32,19 @@
 
         $("#btn-send-mensaje").on("click",function(){
 
-            var name    = $('#c-nombre').val();
-            var correo  = $('#c-mail').val();
-            var mensaje = $('#c-mensaje').val();
+            var name     = $('#c-nombre').val();
+            var correo   = $('#c-mail').val();
+            var mensaje  = $('#c-mensaje').val();
+            var telefono = $('#c-telefono').val();
 
             if(name == ''){
                 sweetalert('Nombre requerido', 'error');
             }else if(correo == '') {
                 sweetalert('Correo requerido', 'error');
-            }else if( !validateEmail(correo) ){
+            }else if( !validateEmail(correo) ) {
                 sweetalert('Correo invalido', 'error');
+            }else if(telefono == ''){
+                sweetalert('Telefono requerido', 'error');
             }else if(mensaje == ''){
                 sweetalert('Mensaje requerido', 'error');
             }else{
@@ -51,6 +54,7 @@
                 formData.append("nombre", name);
                 formData.append("correo", correo);
                 formData.append("mensaje", mensaje);
+                formData.append("telefono", telefono);
 
                 $.ajax({
                     type: 'POST',
@@ -72,7 +76,7 @@
                         $('button#btn-send-mensaje').find('i.fa').remove();
 
                         if(res.code === 200) {
-                            sweetalert('Mensjae enviado exitosamente', 'success');
+                            sweetalert('Mensaje enviado exitosamente', 'success');
 
                         }else if(res.code === 500){
                             sweetalert('Error al enviar mensaje. Consulte al Administrador.', 'error');

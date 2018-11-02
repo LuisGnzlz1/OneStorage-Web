@@ -6,9 +6,10 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-$nombre  = $_POST['nombre'];
-$correo  = $_POST['correo'];
-$mensaje = $_POST['mensaje'];
+$nombre   = $_POST['nombre'];
+$correo   = $_POST['correo'];
+$mensaje  = $_POST['mensaje'];
+$telefono = $_POST['telefono'];
 
 $correo_destino = 'info@onestorage.com.ar';
 
@@ -32,7 +33,7 @@ try {
     //Content
     $mail->isHTML(true);
     $mail->Subject = 'Contacto Formulario Web';
-    $mail->Body    = 'Contacto Formulario Web, <br><br><b>Nombre:</b> '.$nombre.' <br><b>Correo:</b> '.$correo.' <br> <b>Mensaje:</b> '.$mensaje.'';
+    $mail->Body    = 'Contacto Formulario Web, <br><br><b>Nombre:</b> '.$nombre.' <br><b>Correo:</b> '.$correo.' <br><b>Telefono:</b> '.$telefono.' <br> <b>Mensaje:</b> '.$mensaje.'';
 
     if($mail->send()){
         echo json_encode(['code' => 200]);
